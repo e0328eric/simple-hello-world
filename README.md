@@ -1,4 +1,4 @@
-# Simple way to print `Hello, World`
+# Simple way to print `Hello, World!`
 
 ```console
 gcc backjoon.c -o backjoon
