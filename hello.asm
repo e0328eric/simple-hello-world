@@ -10,8 +10,7 @@ main_prob:
     mov    QWORD [rsp+0x8], rdi
     lea    rdi, [hello]
     call   QWORD [rsp+0x8]
-    add    rsp,0x10
-    pop    rbp
+    leave
     ret
 
 hello: db "Hello, World!", 10, 0

@@ -1,5 +1,7 @@
 /backjoon
 /hello
 /*.o
+/*.exe
+/*.obj
 /*.bin
 /hello.c
